@@ -1,0 +1,27 @@
+# Deployment logs
+deployments/deployment.log
+deployments/*.log
+
+# Foundry build artifacts
+cache/
+out/
+broadcast/
+
+# Dependencies
+node_modules/
+lib/
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
