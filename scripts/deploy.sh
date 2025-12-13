@@ -32,8 +32,8 @@ mkdir -p deployments
 # Deploy contracts
 echo "Deploying OINIO contracts to Pi Network..."
 forge script script/Deploy.s.sol:Deploy \
-  --rpc-url $PI_RPC_URL \
-  --private-key $PRIVATE_KEY \
+  --rpc-url "$PI_RPC_URL" \
+  --private-key "$PRIVATE_KEY" \
   --broadcast \
   --legacy \
   -vvvv | tee deployments/deployment.log

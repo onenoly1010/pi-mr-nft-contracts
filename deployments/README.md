@@ -5,8 +5,8 @@
 Set environment variables:
 
 ```bash
-export DEPLOYER_ADDRESS="0xd41691b61a2f85CBf3915BFE65C8D01772c18460"
-export PRIVATE_KEY="your_private_key_here"
+export DEPLOYER_ADDRESS="0x..."  # Your deployer address
+export PRIVATE_KEY="your_private_key_here"  # Never commit this!
 export PI_RPC_URL="https://rpc.mainnet.pi.network"
 ```
 
@@ -25,8 +25,10 @@ grep "deployed to:" deployments/deployment.log
 ```
 
 This will show:
-- CatalystPool address
-- ModelRoyaltyNFT address
+- ModelRoyaltyNFT contract address
+
+Note: The CatalystPool is initially set to the deployer address (not a separate contract).
+Check the deployment logs for the full deployment summary.
 
 ## Verify Deployment
 
