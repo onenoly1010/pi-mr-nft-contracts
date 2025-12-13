@@ -254,7 +254,7 @@ cast send <NFT_ADDRESS> "mint(address,string)" $DEPLOYER_ADDRESS "ipfs://..." \
 ## 🔗 Quick Links
 
 - [Deployment README](../deployments/README.md)
-- [Deployment Scripts](../scripts/)
+- [Deploy Script](../scripts/deploy.sh)
 - [Smart Contracts](../contracts/)
 - [Issue Template](../.github/ISSUE_TEMPLATE/deployment-tracking.md)
 
