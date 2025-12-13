@@ -122,8 +122,8 @@ Ready to mint your first AI model NFT?
 ```bash
 # Mint parameters
 CREATOR_ADDRESS="0xYourAddress"
-MODEL_HASH="0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"  # Example placeholder - replace with your actual model hash
-ROYALTY_BPS="1500"  # 15% royalty rate (must be between 1000-3000)
+MODEL_HASH="0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"  # Replace with your model's 32-byte unique identifier (e.g., SHA256 hash)
+ROYALTY_BPS="1500"  # 15% inference royalty rate (must be between 1000-3000 = 10-30%)
 TOKEN_URI="ipfs://QmYourModelMetadata"  # IPFS URI for model metadata
 
 # Mint NFT
@@ -240,7 +240,7 @@ Update your frontend configuration:
 // config.js
 export const CONTRACTS = {
   modelRoyaltyNFT: "0x...", // Your deployed address
-  catalystPool: "0xd41691b61a2f85CBf3915BFE65C8D01772c18460", // Deployer address (temporary)
+  catalystPool: "0xd41691b61a2f85CBf3915BFE65C8D01772c18460", // Initially deployer address (update when CatalystPool contract deployed)
   chainId: 314159,
   rpcUrl: "https://rpc.mainnet.pi.network"
 };
