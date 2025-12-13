@@ -26,6 +26,9 @@ echo "✅ Deployer: $DEPLOYER_ADDRESS"
 echo "✅ RPC URL: $PI_RPC_URL"
 echo ""
 
+# Ensure deployments directory exists
+mkdir -p deployments
+
 # Deploy contracts
 echo "Deploying OINIO contracts to Pi Network..."
 forge script script/Deploy.s.sol:Deploy \

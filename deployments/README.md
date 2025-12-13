@@ -31,13 +31,14 @@ This will show:
 ## Verify Deployment
 
 ```bash
-# Check CatalystPool
-cast call <CATALYST_POOL_ADDRESS> "name()(string)" --rpc-url $PI_RPC_URL
-
 # Check ModelRoyaltyNFT
 cast call <MODEL_ROYALTY_NFT_ADDRESS> "name()(string)" --rpc-url $PI_RPC_URL
 cast call <MODEL_ROYALTY_NFT_ADDRESS> "symbol()(string)" --rpc-url $PI_RPC_URL
 cast call <MODEL_ROYALTY_NFT_ADDRESS> "catalystPool()(address)" --rpc-url $PI_RPC_URL
+
+# Verify CatalystPool address (currently set to deployer address)
+# Note: CatalystPool is initially set to the deployer address
+# This can be updated later when a dedicated CatalystPool contract is deployed
 ```
 
 ## Post-Deployment Steps

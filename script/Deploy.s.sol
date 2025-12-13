@@ -6,17 +6,21 @@ import "../contracts/ModelRoyaltyNFT.sol";
 
 contract Deploy is Script {
     function run() external {
+        // Load private key securely from environment
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
+        address deployer = vm.addr(deployerPrivateKey);
         
         vm.startBroadcast(deployerPrivateKey);
 
-        // Deploy CatalystPool (simple address for now - can be a contract later)
-        // For initial deployment, we'll use the deployer address as the catalyst pool
-        address catalystPool = vm.addr(deployerPrivateKey);
+        // NOTE: Using deployer address as initial CatalystPool address
+        // This is a temporary measure for initial deployment
+        // The CatalystPool should be updated to a proper contract address later
+        // via the owner functions if/when a dedicated pool contract is deployed
+        address catalystPool = deployer;
         
         console.log("Deploying contracts...");
-        console.log("Deployer address:", vm.addr(deployerPrivateKey));
-        console.log("CatalystPool address:", catalystPool);
+        console.log("Deployer address:", deployer);
+        console.log("CatalystPool address (temporary):", catalystPool);
         
         // Deploy ModelRoyaltyNFT
         ModelRoyaltyNFT nft = new ModelRoyaltyNFT(catalystPool);
