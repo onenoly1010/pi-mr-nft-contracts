@@ -122,9 +122,9 @@ Ready to mint your first AI model NFT?
 ```bash
 # Mint parameters
 CREATOR_ADDRESS="0xYourAddress"
-MODEL_HASH="0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"
-ROYALTY_BPS="1500"  # 15% royalty rate
-TOKEN_URI="ipfs://QmYourModelMetadata"
+MODEL_HASH="0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"  # Example: Use your model's unique hash
+ROYALTY_BPS="1500"  # 15% royalty rate (must be between 1000-3000)
+TOKEN_URI="ipfs://QmYourModelMetadata"  # IPFS URI for model metadata
 
 # Mint NFT
 cast send $MODEL_NFT \
@@ -146,8 +146,8 @@ cast send $MODEL_NFT \
 # Check next token ID (should be 1 after first mint)
 cast call $MODEL_NFT "nextTokenId()(uint256)" --rpc-url $PI_RPC_URL
 
-# Get model details for token 0
-cast call $MODEL_NFT "models(uint256)(address,bytes32,uint16,uint32,uint64)" 0 --rpc-url $PI_RPC_URL
+# Get model details for token 0 (returns: creator, modelHash, royaltyBps, benchmarkScore, mintedAt)
+cast call $MODEL_NFT "models(uint256)" 0 --rpc-url $PI_RPC_URL
 ```
 
 ## 🐛 Quick Troubleshooting

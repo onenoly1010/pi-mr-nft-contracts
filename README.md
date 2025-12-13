@@ -24,7 +24,7 @@ OINIO establishes the first sovereign AI economy on Pi Network, where AI models 
 - **Perpetual Inference Royalties**: 10-30% royalties on every AI inference
 - **Immutable Ownership**: Model creators retain perpetual rights
 - **Transparent Attribution**: On-chain proof of model lineage
-- **Benchmark Integration**: Performance-based reputation system
+- **Benchmark Ready**: Built-in support for performance tracking
 - **ERC-721 Standard**: Full NFT compatibility and transferability
 
 ### CatalystPool (Coming Soon)
