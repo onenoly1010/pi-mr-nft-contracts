@@ -304,7 +304,7 @@ source .env  # or: export $(cat .env | xargs)
 
 **Stuck?** Try these resources:
 
-1. **Detailed Guide**: [docs/INSTALLATION.md](INSTALLATION.md)
+1. **Detailed Guide**: [INSTALLATION.md](INSTALLATION.md)
 2. **GitHub Issues**: [Report a problem](https://github.com/onenoly1010/pi-mr-nft-contracts/issues)
 3. **Community**: [@Onenoly11 on Twitter](https://twitter.com/Onenoly11)
 

@@ -514,7 +514,7 @@ Once the CatalystPool contract is ready:
 
 ### 5. Explore Documentation
 
-- **Quick Start**: [docs/QUICKSTART.md](QUICKSTART.md) for rapid deployment
+- **Quick Start**: [QUICKSTART.md](QUICKSTART.md) for rapid deployment
 - **Main README**: [README.md](../README.md) for project overview
 - **API Reference**: Coming soon
 
