@@ -122,7 +122,7 @@ Ready to mint your first AI model NFT?
 ```bash
 # Mint parameters
 CREATOR_ADDRESS="0xYourAddress"
-MODEL_HASH="0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"  # Example: Use your model's unique hash
+MODEL_HASH="0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"  # Example placeholder - replace with your actual model hash
 ROYALTY_BPS="1500"  # 15% royalty rate (must be between 1000-3000)
 TOKEN_URI="ipfs://QmYourModelMetadata"  # IPFS URI for model metadata
 

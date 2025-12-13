@@ -26,6 +26,7 @@ Foundry is a blazing fast toolkit for Ethereum application development.
 
 **Install on macOS/Linux:**
 ```bash
+# This command works on both macOS and Linux systems
 curl -L https://foundry.paradigm.xyz | bash
 foundryup
 ```
