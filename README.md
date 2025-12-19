@@ -189,8 +189,11 @@ nft.payRoyalty{value: totalAmount}(
 ### Querying Royalty Information
 
 ```solidity
-// Get royalty info for NFT sales (ERC2981 standard - uses half rate)
-// For a token with 1500 bps (15% inference royalty), this returns 7.5% for NFT sales
+// Get royalty info for NFT sales (ERC2981 standard)
+// Note: inference royalties use the full rate with a 10000 bps divisor,
+// while ERC2981 NFT sale royalties use a 20000 bps divisor (half rate).
+// For example, a token with 1500 bps (15% inference royalty) yields 750 bps (7.5%)
+// as the royalty for NFT sales via royaltyInfo.
 (address receiver, uint256 royaltyAmount) = nft.royaltyInfo(tokenId, salePrice);
 ```
 
