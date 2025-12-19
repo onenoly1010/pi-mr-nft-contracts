@@ -331,9 +331,9 @@ cat > deployments/mainnet-deployment.txt << EOF
 Deployment Date: $(date)
 Network: Pi Network (314159)
 Deployer: $DEPLOYER_ADDRESS
-ModelRoyaltyNFT: <ADDRESS_FROM_LOG>
+ModelRoyaltyNFT: \$MODEL_ROYALTY_NFT_ADDRESS_FROM_LOG
 CatalystPool: $DEPLOYER_ADDRESS (temporary)
-Transaction Hash: <TX_HASH_FROM_LOG>
+Transaction Hash: \$TX_HASH_FROM_LOG
 EOF
 ```
 
