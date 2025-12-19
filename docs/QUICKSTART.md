@@ -240,7 +240,7 @@ Update your frontend configuration:
 // config.js
 export const CONTRACTS = {
   modelRoyaltyNFT: "0x...", // Your deployed address
-  catalystPool: "0xd41691b61a2f85CBf3915BFE65C8D01772c18460", // Initially deployer address (update when CatalystPool contract deployed)
+  catalystPool: "0x...", // Placeholder: replace with the CatalystPool contract address after you deploy CatalystPool
   chainId: 314159,
   rpcUrl: "https://rpc.mainnet.pi.network"
 };
