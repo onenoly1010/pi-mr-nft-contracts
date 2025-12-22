@@ -1,9 +1,10 @@
 ---
 name: Daily Deployment Readiness Tracking
 about: Track daily progress toward OINIO mainnet deployment
-title: 'Deployment Readiness - [DATE]'
-labels: ['deployment', 'tracking', 'mainnet']
+title: Deployment Readiness - [DATE]
+labels: ''
 assignees: ''
+
 ---
 
 ## 📅 Daily Deployment Readiness - [DATE]
