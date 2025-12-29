@@ -1,0 +1,7 @@
+[build]
+builder = "NIXPACKS"
+buildCommand = "curl -L https://foundry.paradigm.xyz | bash && source ~/.bashrc && foundryup && forge build"
+
+[deploy]
+startCommand = "bash scripts/deploy.sh"
+restartPolicyType = "NEVER"

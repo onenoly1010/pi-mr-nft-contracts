@@ -5,6 +5,19 @@
 **Website:** [quantumpiforge.com](https://quantumpiforge.com)  
 **Twitter:** [@Onenoly11](https://twitter.com/Onenoly11)
 
+## 🚀 Quick Deploy
+
+### Deploy to Railway (One-Click)
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/onenoly1010/pi-mr-nft-contracts)
+
+**Required Environment Variables:**
+- `DEPLOYER_ADDRESS` - Your wallet address
+- `PRIVATE_KEY` - Your deployer private key (keep secure!)
+- `PI_RPC_URL` - Pi Network RPC endpoint
+
+Click the button above, connect your GitHub, set the environment variables, and deploy! 🎉
+
 ## 🎯 Vision
 
 OINIO establishes the first sovereign AI economy on Pi Network, where AI models earn perpetual inference royalties while builders receive catalyst rewards through an autonomous governance system. This creates a self-sustaining ecosystem that rewards innovation without central control.
