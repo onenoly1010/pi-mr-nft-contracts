@@ -1,3 +1,8 @@
+<!-- REPO_STATUS_BANNER_START -->
+> **Repository Status:** ACTIVE — PRODUCTION CONTRACT CANON  
+> **Public Review Note:** This repository is explicitly classified to prevent ambiguity between production canon, support infrastructure, historical archives, and demos.
+<!-- REPO_STATUS_BANNER_END -->
+
 # OINIO - The First Sovereign AI Economy
 
 **Deployer:** `0xd41691b61a2f85CBf3915BFE65C8D01772c18460`  
